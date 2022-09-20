@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url('PSD_05.jpg'); */
+    font-family: 'Fira Sans', sans-serif;
+}
+.sidebar{
+    background-color: rgb(219, 212, 212);
+    /* width: 235px; */
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.4s ease-in;
+    /* height: 100vh; */
+}
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0px;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.infoContainer{
+    height: 70vh;
+    margin: 100px auto;
+    width: 80vw;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+ .devPic img{
+    height: 60vh;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{ 
+    font-family: 'Source Code Pro', monospace;
+    font-size: 45px;
+}
+.name{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-family: 'Source Code Pro', monos pace;  
+    font-size: 28px;
+}
+.moreabout{
+    /* font-family: 'Source Code Pro', monospace;   */
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 28px;
+}
+.sn{
+    margin: 0px;
+}
+.buttons button{
+    cursor: pointer;
+color: white;
+margin: 0 3px;
+font-weight: bold;
+background-color: dodgerblue;
+border-radius: 22px;
+padding: 9px 20px;
+}
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.contactform {
+    padding-top: 110px;
+    padding-left: 36px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform h1{
+    /* text-align: center; */
+    padding: 13px 0;
+    font-family: 'Source Code Pro', monos pace;  
+    
+}
+.form-group {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 13px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 6px 0 0 0;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    padding: 7px 5px;
+}
+#f-check{
+    flex-direction: row;
+    
+}
+#f-check input{
+    width: 24px;
+    margin: 9px 0;
+}
+.blogitem{
+    margin: 18px 30px;
+}
+.blogitem p{
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.blogitem h2{
+    font-family: 'Fira Sans', sans-serif;
+}
+.blogcontainer h1{
+    font-family: 'Source Code Pro', monos pace;  
+    text-align: center;
+}
+.btn button{
+    margin-top: 15px;
+    cursor: pointer;
+color: white;
+/* margin: 0 3px; */
+font-weight: bold;
+background-color: dodgerblue;
+border-radius: 22px;
+padding: 9px 20px;
+}
+.btn button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.main{
+    display: flex;
+}
+p>span{
+    width: 255px;
+    height: 6px;
+    background-color:  red;
+    display: inline-block;
+}
+@media (max-width:770px) { 
+     *{
+        /* background-color: rebeccapurple; */
+font-size: 14px;
+    }
+   .main{
+    margin: 8px;
+   }
+    .buttons{
+        display: grid;
+        margin: 5px;
+    }
+    .buttons button{
+        margin: 5px;
+    }
+    .devInfo{
+        margin: 0px;
+    }
+    .devPic{
+        display: none;
+    }
+    .cross{
+        margin-left: 28px;
+    }
+   
+ }
+.hamburgur{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 170px;
+}
+.sidebargo{
+    transform: translate(-248px, 0px);
+    position: absolute;
+}
+.f12{
+    margin-top: 15px;
+    background-image:"url('https://images.unsplash.com/photo-1587309492480-eae85a198e08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHRlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60')";
+    background-color:  #1e294b;
+    height: 30vh;
+    color:white;  
+}
+.l_33{
+    height: 30vh;
+    width: 40%;
+    float: right;
+    margin: 55px;
+    text-align: center;
+
+}
+.dtl{
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin: 15px;
+    margin-top: 50px;
+}
+.l_3323{
+    border: 3px solid  red;
+}
